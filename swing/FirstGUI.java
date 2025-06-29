@@ -3,8 +3,6 @@ package GUI.swing;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class FirstGUI {
     public static void main(String[] args) {
@@ -15,9 +13,6 @@ public class FirstGUI {
 class Abc extends JFrame {      //CardLayout
 
     public Abc() {
-
-        ImageIcon imageIcon = new ImageIcon("./images/Screenshot.png");
-
         JLabel l = new JLabel("Hello World ");
         JLabel l1 = new JLabel(" Welcome to Charan");
         add(l);

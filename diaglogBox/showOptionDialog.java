@@ -1,8 +1,6 @@
 package GUI.diaglogBox;
 
 import javax.swing.*;
-import java.awt.desktop.AppEvent;
-import java.util.Optional;
 
 public class showOptionDialog {
 
