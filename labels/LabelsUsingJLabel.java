@@ -12,16 +12,17 @@ public class LabelsUsingJLabel extends JFrame {
         this.add(l2);
         this.setVisible(true);
         this.setLayout(new FlowLayout());
+        this.setLocationRelativeTo(null);
         this.setTitle("Labels");
-        this.setSize(500, 800);
+        this.setResizable(false);
+        this.setSize(400, 400);
         this.getContentPane().setBackground(new Color(86, 93, 97));
         JButton jButton = new JButton("JButton");
         JButton jButton2 = new JButton("JButton2");
         this.add(jButton);
         this.add(jButton2);
 
-
-        //this.pack();
+        this.pack();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
